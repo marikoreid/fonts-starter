@@ -2,7 +2,6 @@ body, html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
-  color: #ff8641;
 }
 
 section {
@@ -17,30 +16,39 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  color: 	#4eafb8;
+  color: #4eafb8;
+}
+
+p {
+  color: #ff8641;
 }
 
 @media (min-width: 768px) {
-  body {
-    color: #7b8f8e;
-  }
+
   h1 {
     color: #02cbd2;
   }
+
   h2 {
     color: #fcc02a;
+  }
+
+  p {
+  color: #7b8f8e;
   }
 }
 
 @media (min-width: 1200px) {
-  body {
-    color: #c19e74;
-  }
+
   h1 {
     color: #6e4b61;
   }
+
   h2 {
     color: #cabd61;
   }
 
+  p {
+    color: #c19e74;
+  }
 }
